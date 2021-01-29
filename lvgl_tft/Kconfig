@@ -430,6 +430,8 @@ menu "LVGL TFT Display controller"
             bool "EVE_SUNFLOWER"
         config LV_FT81X_CONFIG_EVE_CONNECTEVE
             bool "EVE_CONNECTEVE"    
+        config LV_FT81X_CONFIG_EVE_E2
+            bool "EVE_E2"
     endchoice
 
     choice
